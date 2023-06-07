@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.card{
+  background-color: azure;
+  color: black;
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, .7);
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.modal_card{
+  width: 700px;
+  margin: 100px auto;
+  background-color: black;
+  padding: 100px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 17px 5px rgba(255, 255, 255);
+}
+
+label{
+
+  margin-bottom: 100px;
+
+}
+
+span{
+  display: inline-block;
+  width: 100%;
+
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+button{
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #ddd;
+  color: black;
+  padding: 20px;
+  margin: 8px;
+  font-size: 22px;
+  text-transform: uppercase;
+  
+}
+.btn-container{
+  width: 20%;
+  margin: 0 auto;
+}
